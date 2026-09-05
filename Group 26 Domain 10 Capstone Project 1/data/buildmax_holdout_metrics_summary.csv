@@ -1,0 +1,21 @@
+metric_group,metric_name,metric_value
+model_selection,delay_model,XGBoost Classifier
+model_selection,cost_model,Linear Regression
+model_selection,safety_model,MLP Network (Multi-Class Softmax)
+model_selection,delay_threshold,0.38000000000000017
+delay,accuracy,0.8469
+delay,precision,0.648840511121628
+delay,recall,0.6347222222222222
+delay,f1,0.6417037210390826
+delay,roc_auc,0.8851411328420258
+delay,bce,0.3280760332816392
+cost,rmse,9.965296073495876
+cost,mae,7.949517791377848
+cost,r2,-0.0019184872686781596
+cost,overrun_precision,0.5082726671078756
+cost,overrun_recall,0.4494732735076083
+cost,overrun_f1,0.4770680194637126
+safety,accuracy,0.3587
+safety,macro_f1,0.11277684048052689
+safety,weighted_f1,0.32228148495244047
+pmo_tier,tier_match_rate,0.744
